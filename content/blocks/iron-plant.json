@@ -1,0 +1,32 @@
+{
+    "type": "GenericCrafter",
+    "name": "Iron Plant",
+    "description": "Generate iron from the floor.",
+    "category": "drill",
+    "research": {
+        "parent": "pneumatic-drill"
+    },
+    "health": 500,
+    "size": 6,
+    "hasItems": true,
+    "itemCapacity": 5,
+    "craftTime": 40,
+    "updateEffect": "coalSmeltsmoke",
+    "requirements": [
+        {
+            "item": "lead",
+            "amount": 50
+        },
+        {
+            "item": "copper",
+            "amount": 25
+        }
+    ],
+    "consumes": {
+        "power": 10
+    },
+    "outputItem": {
+        "item": "iron",
+        "amount": 2
+    }
+}
