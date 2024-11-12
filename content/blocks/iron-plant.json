@@ -2,7 +2,7 @@
     "type": "GenericCrafter",
     "name": "Iron Plant",
     "description": "Generate iron from the floor.",
-    "category": "drill",
+    "category": "crafting",
     "research": {
         "parent": "pneumatic-drill"
     },
