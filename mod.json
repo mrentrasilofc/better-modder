@@ -1,0 +1,10 @@
+{
+    "name": "Better Modder",
+    "displayName": "Better Modder",
+    "author": "MrEntrasil",
+    "description": "My first mindustry mod!",
+    "version": "0.1 Alpha",
+    "minGameVersion": "146",
+    "dependencies": [],
+    "hidden": false
+}

@@ -1,0 +1,34 @@
+{
+    "type": "GenericCrafter",
+    "name": "Steel Plant",
+    "description": "Refines iron and coal into steel.",
+    "category": "crafting",
+    "research": {
+        "parent": "iron-drill"
+    },
+    "health": 500,
+    "size": 4,
+    "hasItems": true,
+    "hasLiquid": false,
+    "hasPower": true,
+    "itemCapacity": 5,
+    "craftTime": 20,
+    "updateEffect": "coalSmeltsmoke",
+    "requirements": [
+        {
+            "item": "coal",
+            "amount": 1
+        },
+        {
+            "item": "iron",
+            "amount": 1
+        }
+    ],
+    "consumes": {
+        "power": 10
+    },
+    "outputItem": {
+        "item": "steel",
+        "amount": 1
+    }
+}
